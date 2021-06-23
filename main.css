@@ -1,0 +1,84 @@
+.row{
+    display: grid;
+    grid-template-columns: 6fr 8fr;
+    gap: 20px;
+}
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+.text{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.title{
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.trait{
+    width: 100px;
+    margin: 0 auto;
+    border-top: 3px solid rgba(214, 214, 214, 0.384);
+}
+.trait-green{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: -4px;
+    border-top: 3px solid rgb(10, 228, 10);
+}
+.col{
+    border-top: 2px solid rgb(84, 247, 84);
+    border-bottom: 2px solid rgb(84, 247, 84);
+    padding: 15px;
+    box-shadow: 0.1px 0.1px 5px gray;
+}
+.section{
+    height: 41px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(51, 248, 51, 0.363);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.image{
+    width: 100%;
+    min-height: 300px;
+    background-color: rgba(212, 212, 212, 0.329);
+}
+.column-2{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*
+
+a retiret en cas de bootstrap
+*/
+
+label{
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    min-height: 30px;
+    border: 1px solid rgb(216, 211, 211);
+}
+
+textarea {
+    width: 100%;
+}
+
